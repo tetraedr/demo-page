@@ -1,0 +1,69 @@
+/**
+ * Viewport styles
+ */
+
+  body{
+    margin:0px;
+    padding:0px;
+    background-color: #5790A0;
+    height:100%;
+    font-family: sans-serif;
+    transition: background-color 3s;
+  }
+
+
+/**
+ * backend elements initialisaiton
+ */
+
+  #convertedSVG{
+    display: none;
+  }
+
+
+
+/**
+ * Inputs styles
+ */
+
+  .tetraButton{
+    padding:1em 1em;
+    background-color: rgba(0,0,0,.3);
+    color:#fff;
+    text-decoration: none;
+    opacity:0.9;
+     transition: background-color .5s;
+  }
+
+  .tetraButton:hover{
+    background-color: rgba(0,0,0,.5);
+  }
+
+  #downloadSVGButton{
+    float:right;
+
+  }
+
+  
+  #sideConvigNavigation{
+    z-index: 90000;
+    position:fixed;
+    top:10px;
+    padding:1%;
+    width:97%;
+  }
+
+/**
+ * Main canvas styles
+ */
+
+  #mainCanvas{
+    overflow:hidden;
+  }
+
+    #mainCanvas  svg {
+      background-color: transparent !important; 
+    }
+
+
+
